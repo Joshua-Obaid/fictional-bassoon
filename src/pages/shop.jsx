@@ -39,7 +39,7 @@ import { NavLink ,Link} from "react-router-dom"
 export default function Shop(){
     return(
         <>
-            <div class="hero_area">
+            <div className="hero_area">
             <div className='container flex nav-cont' >
                 
                
@@ -65,16 +65,16 @@ export default function Shop(){
             </div>
 
     {/* <!-- header section strats --> */}
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
+    <header className="header_section">
+      <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg custom_nav-container">
         <Link className="navbar-brand" to='/'>
             <img src={logo} alt="" />
           </Link>
           
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
           
@@ -113,26 +113,26 @@ export default function Shop(){
 
   {/* <!-- brand section --> */}
 
-  <section class="brand_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
+  <section className="brand_section layout_padding">
+    <div className="container">
+      <div className="heading_container">
         <h2>
           Featured Brands
         </h2>
       </div>
-      <div class="brand_container layout_padding2">
-        <div class="box">
+      <div className="brand_container layout_padding2">
+        <div className="box">
           <a href="">
-            <div class="new">
+            <div className="new">
               <h5>
                 New
               </h5>
             </div>
-            <div class="img-box">
+            <div className="img-box">
               <img src={sliderImg} alt=""/>
             </div>
-            <div class="detail-box">
-              <h6 class="price">
+            <div className="detail-box">
+              <h6 className="price">
                 $100
               </h6>
               <h6>
@@ -141,13 +141,13 @@ export default function Shop(){
             </div>
           </a>
         </div>
-        <div class="box">
+        <div className="box">
           <a href="">
-            <div class="img-box">
+            <div className="img-box">
               <img src={sliderImg}  alt=""/>
             </div>
-            <div class="detail-box">
-              <h6 class="price">
+            <div className="detail-box">
+              <h6 className="price">
                 $100
               </h6>
               <h6>
@@ -156,13 +156,13 @@ export default function Shop(){
             </div>
           </a>
         </div>
-        <div class="box">
+        <div className="box">
           <a href="">
-            <div class="img-box">
+            <div className="img-box">
               <img src={sliderImg}  alt=""/>
             </div>
-            <div class="detail-box">
-              <h6 class="price">
+            <div className="detail-box">
+              <h6 className="price">
                 $100
               </h6>
               <h6>
@@ -171,13 +171,13 @@ export default function Shop(){
             </div>
           </a>
         </div>
-        <div class="box">
+        <div className="box">
           <a href="">
-            <div class="img-box">
+            <div className="img-box">
               <img src={sliderImg}  alt=""/>
             </div>
-            <div class="detail-box">
-              <h6 class="price">
+            <div className="detail-box">
+              <h6 className="price">
                 $100
               </h6>
               <h6>
@@ -187,7 +187,7 @@ export default function Shop(){
           </a>
         </div>
       </div>
-      <a href="" class="brand-btn">
+      <a href="" className="brand-btn">
         See More
       </a>
     </div>
@@ -197,22 +197,22 @@ export default function Shop(){
 
 
   {/* <!-- info section --> */}
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="info_logo">
+  <section className="info_section layout_padding2">
+    <div className="container">
+      <div className="info_logo">
         <h2>
           Digitf
         </h2>
       </div>
-      <div class="row">
+      <div className="row">
 
-        <div class="col-md-3">
-          <div class="info_contact">
+        <div className="col-md-3">
+          <div className="info_contact">
             <h5>
               About Shop
             </h5>
             <div>
-              <div class="img-box">
+              <div className="img-box">
                 <img src={locationWhite} width="18px" alt=""/>
               </div>
               <p>
@@ -220,7 +220,7 @@ export default function Shop(){
               </p>
             </div>
             <div>
-              <div class="img-box">
+              <div className="img-box">
                 <img src={telephoneWhite} width="12px" alt=""/>
               </div>
               <p>
@@ -228,7 +228,7 @@ export default function Shop(){
               </p>
             </div>
             <div>
-              <div class="img-box">
+              <div className="img-box">
                 <img src={envelopeWhite} width="18px" alt=""/>
               </div>
               <p>
@@ -237,8 +237,8 @@ export default function Shop(){
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="info_info">
+        <div className="col-md-3">
+          <div className="info_info">
             <h5>
               Informations
             </h5>
@@ -248,20 +248,20 @@ export default function Shop(){
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="info_insta">
+        <div className="col-md-3">
+          <div className="info_insta">
             <h5>
               Instagram
             </h5>
-            <div class="insta_container">
+            <div className="insta_container">
               <div>
                 <a href="">
-                  <div class="insta-box b-1">
+                  <div className="insta-box b-1">
                     <img src={i1} alt=""/>
                   </div>
                 </a>
                 <a href="">
-                  <div class="insta-box b-2">
+                  <div className="insta-box b-2">
                     <img src={i2}  alt=""/>
                   </div>
                 </a>
@@ -269,24 +269,24 @@ export default function Shop(){
 
               <div>
                 <a href="">
-                  <div class="insta-box b-3">
+                  <div className="insta-box b-3">
                     <img src={i3}  alt=""/>
                   </div>
                 </a>
                 <a href="">
-                  <div class="insta-box b-4">
+                  <div className="insta-box b-4">
                     <img src={i4}  alt=""/>
                   </div>
                 </a>
               </div>
               <div>
                 <a href="">
-                  <div class="insta-box b-3">
+                  <div className="insta-box b-3">
                     <img src={i5}  alt=""/>
                   </div>
                 </a>
                 <a href="">
-                  <div class="insta-box b-4">
+                  <div className="insta-box b-4">
                     <img src={i6}  alt=""/>
                   </div>
                 </a>
@@ -294,8 +294,8 @@ export default function Shop(){
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="info_form ">
+        <div className="col-md-3">
+          <div className="info_form ">
             <h5>
               Newsletter
             </h5>
@@ -305,7 +305,7 @@ export default function Shop(){
                 Subscribe
               </button>
             </form>
-            <div class="social_box">
+            <div className="social_box">
               <a href="">
                 <img src={fb}  alt=""/>
               </a>
@@ -329,8 +329,8 @@ export default function Shop(){
 
 
   {/* <!-- footer section --> */}
-  <section class="container-fluid footer_section ">
-    <div class="container">
+  <section className="container-fluid footer_section ">
+    <div className="container">
       <p>
         &copy; 2019 All Rights Reserved By
         <a href="https://html.design/">Free Html Templates</a>
